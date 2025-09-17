@@ -1,0 +1,125 @@
+body{
+    background-color: beige;
+}
+.card img{
+    border-radius: 40px 0 50px 0;
+    box-shadow: 2px 2px 12px;
+ }
+ .card{
+    height: 400px ;
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 0px 10px 3px black;
+ }
+ .card h2{
+    text-align: center;
+ }
+ .card button{
+    margin-left: 150px;
+    padding: 12px;
+    border-radius: 10px 0 10px 0;
+    padding: 8px 7px;
+    background-color: black;
+    color: white;
+    border: none;
+ }
+
+ .first{
+    margin-left: 30px;
+    margin-top: 100px;
+ }
+ .second{
+    margin-left: 500px;
+    margin-top: -460px;
+ }
+ .third{
+    margin-left: 970px;
+    margin-top: -460px;
+ }
+
+ .fourth{
+    margin-left: 30px;
+    margin-top: 100px;
+ }
+ .fifth{
+    margin-left: 500px;
+    margin-top: -460px;
+ }
+ .sixth{
+    margin-left: 970px;
+    margin-top: -460px;
+ }
+
+ .seventh{
+    margin-left: 30px;
+    margin-top: 100px;
+ }
+ .eight{
+    margin-left: 500px;
+    margin-top: -460px;
+ }
+ .nineth{
+    margin-left: 970px;
+    margin-top: -460px;
+ }
+
+ /* new  */
+/* Row 4 */
+/* Row 4 (cards 10–12) */
+.ten {
+  margin-left: 30px;
+  margin-top: 100px;
+}
+.eleven {
+  margin-left: 500px;
+  margin-top: -460px;
+}
+.twelve {
+  margin-left: 200px;
+  margin-top: -460px;
+}
+
+/* Row 5 (cards 13–15) */
+.thirteen {
+  margin-right: 800px;
+  margin-top: 100px;
+}
+.fourteen {
+  margin-left: 500px;
+  margin-top: -460px;
+}
+.fifteen {
+  margin-left: 970px;
+  margin-top: -460px;
+}
+
+/* Row 6 (cards 16–18) */
+.sixteen {
+  margin-left: 30px;
+  margin-top: 100px;
+}
+.seventeen {
+  margin-left: 500px;
+  margin-top: -460px;
+}
+.eighteen {
+  margin-left: 970px;
+  margin-top: -460px;
+}
+
+/* Row 7 (cards 19–21) */
+.nineteen {
+  margin-left: 30px;
+  margin-top: 100px;
+}
+.twenty {
+  margin-left: 500px;
+  margin-top: -460px;
+}
+.twentyone {
+  margin-left: 970px;
+  margin-top: -460px;
+}

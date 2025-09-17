@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    width: 100%;
+}
+.navbar div{
+    font-size: 20px;
+    padding-left: 30px;
+    margin-top: -65px;
+    margin-left: 60px;
+}
+.navbar div a{
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    height:50px ;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+
+
+
+.home{
+    height: 700px;
+    width: 100%;
+    background-color: salmon;
+    background-image: url(./babylion.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.home div{
+    padding-top: 150px;
+    margin-left: 140px;
+}
+.home div h1{
+    font-size: 50px;
+    font-style: italic;
+}
+
+/* about */
+.about{
+    height: 100%;
+    width:100%;
+    padding-top: 1000px;
+    background-color: rgb(3, 62, 3);
+    
+
+}
+.about .content{
+    height: 380px;
+    width: 75%;
+    background-color:black;
+    color: white;
+    border: 6px solid green;
+    padding: 30px;
+    border-radius:20px;
+    margin-left:170px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10px;
+    padding:30px;
+
+
+
+}
+
+.about .content p{
+    margin-top: 20px;
+    letter-spacing: 2px;
+
+}
+
+.about .content h4{
+    text-align: end;
+    margin-top:20px;
+}
+

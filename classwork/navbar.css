@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+   
+    height: 95vh;
+    width: 100%;
+    background-image: url(./background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    
+    background-color: bisque;
+    padding: 20px;
+    
+}
+nav .cont{
+    background-color: brown;
+     display: flex;
+     justify-content: right;
+
+}
+
+nav .link {
+    background-color: brown;
+    display: flex; 
+    gap: 20px;   
+    margin-bottom: auto;   
+}
+
+nav .link a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.logo img{
+   
+    height: 50px;
+   
+}

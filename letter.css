@@ -1,0 +1,31 @@
+/* section{
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+    text-decoration:dotted;
+    text-decoration: dotted;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-shadow: -10px 2px 10px olive;
+    text-indent: 200px;
+    text-decoration-line:underline;
+    text-decoration-color:orange;
+    line-height: 40px;
+    letter-spacing: 2px;
+    word-spacing: 30px; */
+
+    /* font property */
+  /* font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+/* color property */
+section .color{
+    background-color: blue;
+    color: white;
+    background-color: #0000;
+    background-color: rgb(red, green, blue);
+    background-color: hsl(hue, saturation, lightness);    
+}

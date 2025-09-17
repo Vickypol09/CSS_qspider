@@ -1,0 +1,106 @@
+/* .first{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+
+}
+.second{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    position: relative;
+    left: 150px;
+    top: -100px;
+
+
+}
+.third{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    left:300px ;
+    top:-200px ;
+
+} */
+/* 
+.parent{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.child{
+    height: 400px;
+    width: 600px;
+    background-color: yellow;
+    position:absolute; 
+    right: 300px;
+    top: 100px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    top: 200px;
+    right: 450px;
+
+} */
+
+.parent{
+    height: 1600px;
+    width: 100%;
+    background-color: black;
+    padding-top: 100px;
+}
+.navbar{
+    height: 90px;
+    width: 100%;
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+}
+
+.parent .navbar{
+    height: 80px;
+    width: 100%;
+    background-color: navy;
+    position: fixed;
+    top: 20px;
+}
+
+.home{
+    height: 400px;
+    width: 75%;
+    background-color: burlywood;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+
+}
+.home .one{
+    height: 300px;
+    width:200px;
+    background-color:orange;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.home .two{
+    height: 300px;
+    width:200px;
+    background-color:white;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+.home .three{
+    height: 300px;
+    width:200px;
+    background-color:green;
+    position: absolute;
+    top: 50px;
+    left: 650px;
+}

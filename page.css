@@ -1,0 +1,12 @@
+.box{
+    height:1000px;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://wallpapers.com/images/hd/kedarnath-temple-crowd-4k-x7v0dhhuw4ivif94.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: wheat;
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
+    /* filter: blur(5px); */
+}
