@@ -1,0 +1,34 @@
+
+.parent .child h1{
+    display: inline;
+}
+.parent{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.parent .child{
+    height: 200px;
+    width: 450px;
+    background-color: rgb(167, 111, 236);
+    padding: 10px;
+    box-shadow: 0 0 2px 3px black;
+    border-radius: 10px;
+}
+
+.parent .child img{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+.parent .child li{
+    list-style: none;
+    line-height: 30px;
+    margin-top: 5px;
+    font-weight: 600;
+}
