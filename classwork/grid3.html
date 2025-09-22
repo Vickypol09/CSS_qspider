@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precise Green Grid Layout</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #8b8b8b;
+      padding: 20px;
+    }
+
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(12, 1fr);
+      gap: 8px;
+      width: 100%;
+      max-width: 600px;
+      height: 600px;
+      background: #90ee90;
+      padding: 12px;
+      border: 3px solid #90ee90;
+    }
+
+    .child {
+      background: #9acd32;
+      border: 2px solid #90ee90;
+    }
+
+    /* Column 1 - Full height tall rectangle */
+    .box1 {
+      grid-column: 1 / 2;
+      grid-row: 1 / 13;
+    }
+
+    /* Column 2 - Full height tall rectangle */
+    .box2 {
+      grid-column: 2 / 3;
+      grid-row: 1 / 13;
+    }
+
+    /* Column 3 - 4 stacked rectangles */
+    .box3 {
+      grid-column: 3 / 4;
+      grid-row: 1 / 4;
+    }
+
+    .box4 {
+      grid-column: 3 / 4;
+      grid-row: 4 / 7;
+    }
+
+    .box5 {
+      grid-column: 3 / 4;
+      grid-row: 7 / 10;
+    }
+
+    .box6 {
+      grid-column: 3 / 4;
+      grid-row: 10 / 13;
+    }
+
+    /* Column 4 - Full height tall rectangle */
+    .box7 {
+      grid-column: 4 / 5;
+      grid-row: 1 / 13;
+    }
+
+    /* Column 5 - 4 stacked rectangles */
+    .box8 {
+      grid-column: 5 / 6;
+      grid-row: 1 / 4;
+    }
+
+    .box9 {
+      grid-column: 5 / 6;
+      grid-row: 4 / 7;
+    }
+
+    .box10 {
+      grid-column: 5 / 6;
+      grid-row: 7 / 10;
+    }
+
+    .box11 {
+      grid-column: 5 / 6;
+      grid-row: 10 / 13;
+    }
+
+    /* Column 6 - 12 small stacked rectangles */
+    .box12 {
+      grid-column: 6 / 7;
+      grid-row: 1 / 13;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(12, 1fr);
+      gap: 4px;
+      background: #90ee90;
+      padding: 4px;
+    }
+
+    .box12 div {
+      background: #9acd32;
+      border: 1px solid #90ee90;
+    }
+  </style>
+</head>
+<body>
+  <section class="parent">
+    <!-- Column 1 - Full height -->
+    <div class="child box1"></div>
+
+    <!-- Column 2 - Full height -->
+    <div class="child box2"></div>
+
+    <!-- Column 3 - 4 sections -->
+    <div class="child box3"></div>
+    <div class="child box4"></div>
+    <div class="child box5"></div>
+    <div class="child box6"></div>
+
+    <!-- Column 4 - Full height -->
+    <div class="child box7"></div>
+
+    <!-- Column 5 - 4 sections -->
+    <div class="child box8"></div>
+    <div class="child box9"></div>
+    <div class="child box10"></div>
+    <div class="child box11"></div>
+
+    <!-- Column 6 - 12 small rectangles -->
+    <div class="child box12">
+      <div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div>
+      <div></div><div></div><div></div><div></div>
+    </div>
+  </section>
+</body>
+</html>

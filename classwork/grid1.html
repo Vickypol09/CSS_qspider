@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Mosaic Layout</title>
+  <style>
+   *{
+    padding: o;
+    margin: 0;
+}
+
+.parent{
+    background-color: #f7bfdb;
+    height: 100vh;
+    width: 100%;
+     display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows:  repeat(8, 1fr);
+    gap: 8px;
+}
+
+.parent .child{
+    /* background-color: red; */
+    background: linear-gradient(45deg,#ff2c96,#fd049e);
+    /* border: 3px solid rgb(252, 82, 82); */
+    /* font-size: 30px; */
+}
+
+.a{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.b{
+    grid-column-start: 5;
+   grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.c{
+    grid-column-start: 6;
+   grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.d{
+    grid-column-start: 7;
+   grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.e{
+    grid-column-start: 8;
+   grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.f{
+    grid-column-start: 9;
+   grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.g{
+    grid-column-start: 10;
+   grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.h{
+    grid-column-start: 11;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.i{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.j{
+    grid-column-start: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.k{
+     grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.l{
+
+     grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.m{
+     grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.n{
+     grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.o{
+     grid-column-start: 8;
+    grid-column-end: 9;
+}
+
+.p{
+    grid-column-start: 9;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+.q{
+    grid-column-start: 11;
+   grid-row-start: 3;
+   grid-row-end: 4;
+}
+
+.r{
+     grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.s{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.t{
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.u{
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.v{
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+
+.w{
+    grid-column-start: 11;
+   grid-row-start: 4;
+   grid-row-end: 5;
+}
+
+.x{
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+.y{
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+.z{
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+.aa{
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+.zz{
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.bb{
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.cc{
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.dd{
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.ee{
+    grid-column-start: 10;
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+.ff{
+     grid-column-start: 11;
+   grid-row-start: 5;
+   grid-row-end: 6;
+}
+
+.gg{
+    grid-column-start:5 ;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.hh{
+    grid-column-start:6 ;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+}
+
+.ii{
+    grid-column-start:7 ;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+}
+
+.jj{
+    grid-column-start:8 ;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+}
+
+.kk{
+    grid-column-start: 11;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+}
+
+.ll{
+     grid-column-start:5 ;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+}
+
+.mm{
+    grid-column-start:6 ;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+}
+
+.nn{
+    grid-column-start:7 ;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.oo{
+     grid-column-start:8 ;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.pp{
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+  </style>
+</head>
+
+<body>
+   <section class="parent">
+
+        <article class="child a">a</article>
+        <article class="child b">b</article>
+        <article class="child c">c</article>
+        <article class="child d">d</article>
+        <article class="child e">e</article>
+        <article class="child f">f</article>
+        <article class="child g">g</article>
+        <article class="child h">h</article>
+        <article class="child i">i</article>
+        <article class="child j">j</article>
+        <article class="child k">k</article>
+        <article class="child l">l</article>
+        <article class="child m">m</article>
+        <article class="child n">n</article>
+        <article class="child o">o</article>
+        <article class="child p">p</article>
+        <article class="child q">q</article>
+        <article class="child r">r</article>
+        <article class="child s">s</article>
+        <article class="child t">t</article>
+        <article class="child u">u</article>
+        <article class="child v">v</article>
+        <article class="child w">w</article>
+        <article class="child x">x</article>
+        <article class="child y">y</article>
+        <article class="child z">z</article>
+        <article class="child aa">aa</article>
+        <article class="child zz">zz</article>
+        <article class="child bb">bb</article>
+        <article class="child cc">cc</article>
+        <article class="child dd">dd</article>
+        <article class="child ee">ee</article>
+        <article class="child ff">ff</article>
+        <article class="child gg">gg</article>
+        <article class="child hh">hh</article>
+        <article class="child ii">ii</article>
+        <article class="child jj">jj</article>
+        <article class="child kk">kk</article>
+        <article class="child ll">ll</article>
+        <article class="child mm">mm</article>
+        <article class="child nn">nn</article>
+        <article class="child oo">oo</article>
+        <article class="child pp">pp</article>
+        <article class="child qq">qq</article>
+        <article class="child rr">rr</article>
+        <article class="child ss">ss</article>
+        <article class="child tt">tt</article>
+        <article class="child uu">uu</article>
+        <article class="child vv">vv</article>
+    </section>
+
+</body>
+
+</html>

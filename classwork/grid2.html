@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mosaic Grid</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: black;
+    }
+
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr); /* 12 equal columns */
+      gap: 8px;
+      width: 95%;
+      height: 95%;
+      background: #c5e17a;
+      padding: 10px;
+    }
+
+    .child {
+      background: #9acd32;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      border-radius: 4px;
+    }
+
+    /* Row 1 */
+    .box1  { grid-column: span 12; }
+
+    /* Row 2 */
+    .box2  { grid-column: span 6; }
+    .box3  { grid-column: span 6; }
+
+    /* Row 3 */
+    .box4  { grid-column: span 4; }
+    .box5  { grid-column: span 4; }
+    .box6  { grid-column: span 4; }
+
+    /* Row 4 */
+    .box7  { grid-column: span 3; }
+    .box8  { grid-column: span 3; }
+    .box9  { grid-column: span 3; }
+    .box10 { grid-column: span 3; }
+
+    /* Row 5 */
+    .box11 { grid-column: span 2; }
+    .box12 { grid-column: span 2; }
+    .box13 { grid-column: span 2; }
+    .box14 { grid-column: span 2; }
+    .box15 { grid-column: span 2; }
+    .box16 { grid-column: span 2; }
+
+    /* Row 6 */
+    .box17 { grid-column: span 1; }
+    .box18 { grid-column: span 1; }
+    .box19 { grid-column: span 1; }
+    .box20 { grid-column: span 1; }
+    .box21 { grid-column: span 1; }
+    .box22 { grid-column: span 1; }
+    .box23 { grid-column: span 1; }
+    .box24 { grid-column: span 1; }
+    .box25 { grid-column: span 1; }
+    .box26 { grid-column: span 1; }
+    .box27 { grid-column: span 1; }
+    .box28 { grid-column: span 1; }
+  </style>
+</head>
+<body>
+  <section class="parent">
+    <div class="child box1">1</div>
+    <div class="child box2">2</div>
+    <div class="child box3">3</div>
+    <div class="child box4">4</div>
+    <div class="child box5">5</div>
+    <div class="child box6">6</div>
+    <div class="child box7">7</div>
+    <div class="child box8">8</div>
+    <div class="child box9">9</div>
+    <div class="child box10">10</div>
+    <div class="child box11">11</div>
+    <div class="child box12">12</div>
+    <div class="child box13">13</div>
+    <div class="child box14">14</div>
+    <div class="child box15">15</div>
+    <div class="child box16">16</div>
+    <div class="child box17">17</div>
+    <div class="child box18">18</div>
+    <div class="child box19">19</div>
+    <div class="child box20">20</div>
+    <div class="child box21">21</div>
+    <div class="child box22">22</div>
+    <div class="child box23">23</div>
+    <div class="child box24">24</div>
+    <div class="child box25">25</div>
+    <div class="child box26">26</div>
+    <div class="child box27">27</div>
+    <div class="child box28">28</div>
+  </section>
+</body>
+</html>
