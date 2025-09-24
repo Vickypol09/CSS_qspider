@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            /* background-color: red; */
+            background-image: url(./rohit.avif);
+            position: relative;
+            top: 250px;
+            left: 400px;
+        }
+
+        .box:hover{
+            transform: scale(2);
+            background-color: greenyellow;
+            transform: scaleX(8.5);
+            transform:scaleY(5.5);
+            transform:rotate(3600deg);
+            transform:rotatX(720deg);
+            transform:rotateY(720deg);
+            transition: 2s;
+            background-image: url(./gtr.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius:100%;
+            transform:translate(300px);
+            transform:translate(-300px);
+            transform:translate(-300px);
+            transition: 3s;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="box"></section>
+</body>
+</html>
